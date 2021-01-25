@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info card using tailwind Css</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+</style>
+<body>
+    <div class="max-w-xs rounded overflow-hidden shadow-lg">
+        <img class="w-full h-48" src="https://images.pexels.com/photos/5596314/pexels-photo-5596314.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <div class="px-6 py-4" style="text-align: center;">
+            <h1 class="font-bold text-xl mb-2">London</h1>
+            <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt facere itaque nihil, laborum, laudantium tenetur a labore dolorem ut veritatis maxime reprehenderit assumenda quidem cumque praesentium? Sequi, corporis eligendi!</p>
+        </div>
+        <div class="px-6 py-4" style="text-align: center;">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2">
+                <i class="fab fa-facebook"></i>
+            </span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2">
+                <i class="fab fa-twitter"></i>
+            </span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2">
+                <i class="fab fa-google"></i>
+            </span>
+        </div>
+    </div>
+</body>
+</html>
